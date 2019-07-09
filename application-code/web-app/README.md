@@ -21,9 +21,3 @@ yarn storybook
 ```bash
 yarn build:prod
 ```
-
-## Run Production Code in a Docker Container
-
-```bash
-docker-compose up -d
-```
