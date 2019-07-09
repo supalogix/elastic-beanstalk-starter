@@ -11,13 +11,19 @@
   "scripts": {
     "build:dev": "webpack --env.REACT_ENV=dev",
     "build:prod": "webpack --env.REACT_ENV=prod",
-    "start": "webpack-dev-server --env.REACT_ENV=prod"
+    "start": "webpack-dev-server --env.REACT_ENV=prod",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.2",
     "@babel/preset-react": "^7.0.0",
     "@babel/register": "^7.4.4",
+    "@storybook/addon-actions": "^5.1.9",
+    "@storybook/addon-links": "^5.1.9",
+    "@storybook/addons": "^5.1.9",
+    "@storybook/react": "^5.1.9",
     "babel-loader": "^8.0.6",
     "thread-loader": "^2.1.2",
     "webpack": "^4.35.3",
