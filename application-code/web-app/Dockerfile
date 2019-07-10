@@ -15,4 +15,6 @@ COPY yarn.lock /app
 RUN yarn
 RUN yarn build:prod
 
+EXPOSE 8080
+
 CMD node server.js
