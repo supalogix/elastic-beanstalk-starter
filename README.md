@@ -1,6 +1,6 @@
 # How to use
 
-We need to build a production worthy application for a CASE management system.
+We want to have a starter kit for a website that we can deploy on elastic beanstalk.
 
 As an initial step we containerized a simple app that has a react frontend,
 nodejs backend, and postgres database.
